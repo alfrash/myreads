@@ -17,7 +17,7 @@ class Book extends React.Component {
         if (finder.length > 0) {
             return finder[0].shelf;
         }
-        return "Zero Books";
+        return 'none';
     };
 
     toggle = () => {

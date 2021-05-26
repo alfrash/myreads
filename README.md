@@ -1,6 +1,7 @@
 # MyReads Project
 
-MyReads Book Project using React
+MyReads Book Project using React 
+MyReads App allows you to select and categorize books you have read, are currently reading, or want to read.
 
 ## TL;DR
 

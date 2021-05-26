@@ -8,7 +8,6 @@ function BookShelf(props) {
     const { shelf, title, books, onChange } = props;
 
     const bookShelf = books.filter((book) => book.shelf === shelf);
-    console.log(books)
     return (
         <div className='bookshelf'>
             <h2 className='bookshelf-title'>{title}</h2>

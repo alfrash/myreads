@@ -19,7 +19,7 @@ function BookDetails(props) {
             <img className="book-cover" src={thumbnail} width="128" height="193" alt="cover" />
           <div className="book-information">
             <p>
-              Author: {'authors' in book ? authors.join(", ") : ''}
+              Author: {'authors' in book ? authors.join(', ') : ''}
               <br />
               Category: {'categories' in book ? categories.join(", ") : ''}
               <br />
